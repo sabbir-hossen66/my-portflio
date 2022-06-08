@@ -32,7 +32,7 @@ const Home = () => {
                         <h2 className="home__text pz__10">
                             Hi,I'm Sabbir Hossen
                         </h2>
-                        <h3 className="home__text sweet">
+                        <h3 className="home__text sweet pz__10">
                             Web Developer
                         </h3>
                     
