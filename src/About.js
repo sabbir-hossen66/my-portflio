@@ -14,7 +14,7 @@ const About = () => {
                           About Me
                       </h1>
                       <p className="about__text p__color">
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores fugit assumenda in qui consequatur soluta?
+                 An Aspiring Web Engineer.Always try to seek knowledge.My obsession is to make beautiful looking and user friendly web site
                       </p>
                       <div className="about__button d__flex align__items__center">
                       <a href="#"><button className='about btn pointer'>Download Resume</button></a>

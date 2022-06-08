@@ -8,10 +8,10 @@ const Service = () => {
       <div className="heading">
         <h1 className="heading">The Services I provide</h1>
         <p className="heading p__color">
-          There are many variations of passages of Lorem Ipsum available,
+        I try to do my job beautifully with a lot of devotion. My focus is on the work of others,
         </p>
         <p className="heading p__color">
-          but the majority have suffered alteration.
+        I am always on time and aware of those who accept my service, the service given by me is shown below
         </p>
       </div>
 
