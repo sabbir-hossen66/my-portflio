@@ -5,7 +5,7 @@ import about from './image/summary.jpg'
 import remot from './image/remot.png'
 const Blog = () => {
     return (
-        <div className='blog component__space  '>
+        <div className='blog component__space' id='Blog'>
             <div className="heading">
                 <h1 className="heading">My Latest News</h1>
                 <p className="heading p__color">

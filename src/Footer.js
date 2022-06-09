@@ -17,9 +17,9 @@ const Footer = () => {
 
 
                 <div className='social'>
-                    <a className='space' href="https://www.facebook.com/"><BsFacebook /></a>
-                    <a href="https://www.linkedin.com/in/sabbir-hossen66/"><BsLinkedin /> </a>
-                    <a href="https://github.com/sabbir-hossen66"><BsGithub /> </a>
+                    <a className='icon-style' href="https://www.facebook.com/"><BsFacebook /></a>
+                    <a className='icon-style' href="https://www.linkedin.com/in/sabbir-hossen66/"><BsLinkedin /> </a>
+                    <a className='icon-style' href="https://github.com/sabbir-hossen66"><BsGithub /> </a>
 
                 </div>
             </div>

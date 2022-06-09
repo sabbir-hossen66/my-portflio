@@ -23,14 +23,14 @@
 .social {
     color: white;
     font-size: larger;
-
-
 }
 
-
-
-.space {
+.icon-style {
     margin-right: 0.5rem;
+}
+
+.icon-style:hover {
+    color: orange;
 }
 
 .style {
