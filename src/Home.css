@@ -20,19 +20,17 @@
 }
 
 li.nav__items {
-    font-size: 12px;
+    font-size: 16px;
     padding-bottom: 15px;
+}
+
+li.nav__items:hover {
+    color: orange;
 }
 
 .home__content {
     padding: 125px 0px;
 
-
-    /* width: 100%;
-    flex-wrap: wrap;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center; */
 }
 
 h1.home__text {
@@ -56,13 +54,6 @@ h3.home__text {
     line-height: 40px;
 }
 
-/* h4.home__text{
-    font-size: 50px;
-    font-weight: 800;
-    line-height: 40px;
-    font-family: Montserrat,sans-serif;
-    
-} */
 .header {
     transition: .4s all ease;
 }
