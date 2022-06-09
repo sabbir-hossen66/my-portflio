@@ -1,0 +1,39 @@
+.footer-style {
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 4rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.left-name {
+    color: aqua;
+    font-size: larger;
+    margin-right: 0.5rem;
+}
+
+.social {
+    color: white;
+    font-size: larger;
+
+
+}
+
+
+
+.space {
+    margin-right: 0.5rem;
+}
+
+.style {
+    font-family: monospace;
+    font-size: large;
+}
