@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css';
-import photo from './image/sabbir-removebg-preview222.png'
+import photo from './image/watsapp22-removebg-preview.png'
 // import photo from './image/trydo.png'
 
 const Home = () => {

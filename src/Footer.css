@@ -21,8 +21,9 @@
 }
 
 .social {
+    margin-left: 00.5rem;
     color: white;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .icon-style {
@@ -36,4 +37,6 @@
 .style {
     font-family: monospace;
     font-size: large;
+    color: red;
+    font-weight: bold;
 }
