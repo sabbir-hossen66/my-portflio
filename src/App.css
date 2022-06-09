@@ -96,7 +96,7 @@ p {
   width: 100%;
   flex-wrap: wrap;
   overflow: hidden;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
 }

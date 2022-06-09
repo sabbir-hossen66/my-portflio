@@ -2,10 +2,13 @@ import React from 'react';
 import './Home.css';
 import photo from './image/watsapp22-removebg-preview.png'
 // import photo from './image/trydo.png'
-
+window.addEventListener('scroll', function () {
+    const header = this.document.querySelector('.header');
+    header.classList.toggle('active', window.scrollY > 0)
+});
 const Home = () => {
     return (
-        <div className='home'>
+        <div className='home' id='Home'>
             <div className="home__bg">
                 <div className="header d__flex align__items__center pxy__30">
                     <div className='logo'>

@@ -1,17 +1,20 @@
-.about{
+.about {
     background: #191919;
 }
-img.about__img{
+
+img.about__img {
     border-radius: 10px;
     width: 100%;
 }
-h1.about__heading{
+
+h1.about__heading {
     margin-bottom: 10px;
     font-weight: 700;
     text-align: start;
-    font-family: Montserrat,sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 60px;
 }
+
 button.about.btn.pointer {
     text-transform: capitalize;
     width: 230px;
@@ -19,10 +22,12 @@ button.about.btn.pointer {
     font-size: 18px;
     transition: .4s ease;
 }
-.about__button{
+
+.about__button {
     padding: 20px 0px;
 }
-a.bottom__to__top{
+
+a.bottom__to__top {
     height: 40px;
     width: 40px;
     position: fixed;
@@ -37,21 +42,25 @@ a.bottom__to__top{
     transition: .4s all ease;
     z-index: 1000;
 }
-a.bottom__to__top.active{
+
+
+a.bottom__to__top.active {
     display: flex;
 }
+
 /* RESPONSIVE */
-@media only screen and (max-width: 1024px){
-    .p__color{
-        font-size: 15px!important;
+@media only screen and (max-width: 1024px) {
+    .p__color {
+        font-size: 15px !important;
     }
 }
-@media only screen and (max-width: 425px){
-button.about.btn.pointer {
-    text-transform: capitalize;
-    width: 165px;
-    height: 50px;
-    font-size: 13px;
-    transition: .4s ease;
-}
+
+@media only screen and (max-width: 425px) {
+    button.about.btn.pointer {
+        text-transform: capitalize;
+        width: 165px;
+        height: 50px;
+        font-size: 13px;
+        transition: .4s ease;
+    }
 }
