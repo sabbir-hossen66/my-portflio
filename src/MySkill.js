@@ -6,8 +6,9 @@ const MySkill = () => {
         <div className='body'>
             <h1 className='skill-style'>My Skill Highlight</h1>
             <div>
-                <span className='style-skill'>HTML5,CSS,React.js,Javascript are my special skill</span>
-                <p className='style-skill'>Node.js,Mongodb,express.js are Comfortable</p>
+                <h2 className='style-skill'>My Expertise Skills: HTML5,CSS,React.js,Javascript,React-router, </h2>
+                <h2 className='style-skill'>Firebase,Bootstrap,Tailwind.</h2>
+                <h3 className='style-skill'>My Comfortable Skills: Node.js,Mongodb,express.js.</h3>
             </div>
             <img className='mern-developer' src={skill} alt="" />
         </div>
