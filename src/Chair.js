@@ -27,13 +27,13 @@ const Chair = () => {
             </div>
             <div className='container'>
                 <div className='text'>
-                    <h1>This Warehouse projects overview:</h1>
+                    <h1>This Independent projects overview:</h1>
 
-                    <h2>This project home page has 9 section</h2>
-                    <h2>Here has protected route</h2>
-                    <h2>This project has order section,add book section</h2>
-                    <h2>In this project i install react-hook form,firebase,daisy-ui,react-router dom</h2>
-                    <h2>Here i use front-end technology and also have back-end "node.js,mongodb,express.js,heroku added</h2>
+                    <h2>This project home page has 3 section</h2>
+
+                    <h2>This project has  booking section</h2>
+                    <h2>In this project i install firebase,react-router dom</h2>
+                    <h2>Here i use front-end technology and also have </h2>
                 </div>
             </div>
 
