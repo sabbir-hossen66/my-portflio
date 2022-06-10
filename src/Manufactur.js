@@ -28,7 +28,7 @@ const Manufactur = () => {
             </div>
             <div className='container'>
                 <div className='text'>
-                    <h1>This Manufacturer projects overview:</h1>
+                    <h1>This is Manufacturer projects overview:</h1>
 
                     <h2>This project home page has 9 section</h2>
                     <h2>Here has protected route</h2>

@@ -27,7 +27,7 @@ const Book = () => {
             </div>
             <div className='container'>
                 <div className='text'>
-                    <h1>This Warehouse projects overview:</h1>
+                    <h1>This is Warehouse projects overview:</h1>
 
                     <h2>This project home page has 7 section</h2>
                     <h2>Here has protected route</h2>

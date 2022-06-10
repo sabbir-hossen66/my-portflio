@@ -27,7 +27,7 @@ const Chair = () => {
             </div>
             <div className='container'>
                 <div className='text'>
-                    <h1>This Independent projects overview:</h1>
+                    <h1>This is Independent projects overview:</h1>
 
                     <h2>This project home page has 3 section</h2>
 
