@@ -1,9 +1,11 @@
+import { Route, Routes } from 'react-router-dom';
 import About from './About';
 import './App.css';
 import Blog from './Blog';
 import Contact from './Contact';
 import Footer from './Footer';
 import Home from './Home';
+import MySkill from './MySkill';
 import Project from './Project';
 import Service from './Service';
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <Service />
       <Project />
       <Blog />
+      <MySkill />
       <Contact />
       <Footer />
     </div>

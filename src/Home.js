@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import About from './About';
+import Blog from './Blog';
+import Contact from './Contact';
 import './Home.css';
-import photo from './image/watsapp22-removebg-preview.png'
+import photo from './image/photostudio-6-designify-removebg-preview.png'
+import Project from './Project';
+import Service from './Service';
 // import photo from './image/trydo.png'
 window.addEventListener('scroll', function () {
     const header = this.document.querySelector('.header');
     header.classList.toggle('active', window.scrollY > 0)
 });
+
+
+
+
 const Home = () => {
+    const [show, setShow] = useState(true)
     return (
         <div className='home' id='Home'>
             <div className="home__bg">
@@ -25,6 +35,36 @@ const Home = () => {
                             <a href="#Contact"><li className='nav__items mx__15'>Contact</li></a>
                         </ul>
                     </div>
+                    {/* toggle bar */}
+                    <div className="toggle__menu">
+                        <svg onClick={() => setShow(!show)} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-justify white pointer" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                    </div>
+                    {show ? (
+                        <div className="sideNavbar">
+                            <ul className="sidebar d__flex">
+                                <li className="sideNavbar">
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li className="sideNavbar">
+                                    <a href="#about">About</a>
+                                </li>
+                                <li className="sideNavbar">
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li className="sideNavbar">
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li className="sideNavbar">
+                                    <a href="#blog">Blog</a>
+                                </li>
+                                <li className="sideNavbar">
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    ) : null}
                 </div>
                 {/* Home content */}
                 <div className="container">
@@ -38,7 +78,8 @@ const Home = () => {
                             </h2>
                             <h3 className="home__text sweet pz__10">
                                 Web Developer
-                            </h3>
+                            </h3><br />
+                            <a href="Sabbir_hossen.pdf" download="Sabbir_hossen.pdf"><button className='about btn pointer'>Download Resume</button></a>
 
                         </div>
                     </div>
@@ -49,8 +90,22 @@ const Home = () => {
                     {/* end div */}
                 </div>
             </div>
+            {/* <About />
+            <Service />
+            <Project />
+            <Blog />
+            <Contact /> */}
         </div>
+
     );
 };
 
 export default Home;
+
+
+
+
+
+
+
+

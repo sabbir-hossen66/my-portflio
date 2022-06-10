@@ -1,0 +1,19 @@
+.body {
+    height: 650px;
+    background-color: wheat;
+    text-align: center;
+
+}
+
+.skill-style {
+    color: orange;
+    font-size: 54px;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+.style-skill {
+    font-family: cursive;
+    font-weight: bold;
+    color: rebeccapurple;
+}
