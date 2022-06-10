@@ -1,0 +1,15 @@
+.title {
+    font-size: xx-large;
+    font-family: monospace;
+    text-align: center;
+    color: orange;
+    font-weight: 800;
+    padding-top: 3rem;
+    height: 100px;
+}
+
+.link-page {
+    text-align: center;
+    justify-content: center;
+    padding-top: 10rem;
+}

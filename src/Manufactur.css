@@ -1,0 +1,57 @@
+.category-style {
+
+    border: 1px solid goldenrod;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    position: relative;
+    height: 10rem;
+    width: 20rem;
+}
+
+.display {
+    display: grid;
+    padding: 2rem;
+
+    border-radius: 10px;
+
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+
+.container {
+    padding: 4rem;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.text h1 {
+    font-family: cursive;
+    font-weight: 700;
+    color: orange;
+    padding-bottom: 0.25rem;
+    font-size: x-large;
+}
+
+.button-link {
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* responsive */
+@media only screen and (max-width:576px) {
+    .display {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:577px)and (max-width:992px) {
+    .display {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

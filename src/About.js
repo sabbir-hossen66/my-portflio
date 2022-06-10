@@ -25,7 +25,7 @@ const About = () => {
                             My obsession is to make beautiful looking and user friendly web site. I create websites with a combination of different libraries and frameworks. I have good skills on React, JavaScript, CSS (Bootstrap-Tailwind),Html5 && Node,Mongodb. Also I have created some full-stack web site by using node.js and mongoDB.
                         </p>
                         <div className="about__button d__flex align__items__center">
-                            {/* <a href="Sabbir_hossen.pdf" download="Sabbir_hossen.pdf"><button className='about btn pointer'>Download Resume</button></a> */}
+
                             <a href="#"><button className='about btn pointer'>Hire Me</button></a>
                         </div>
                     </div>

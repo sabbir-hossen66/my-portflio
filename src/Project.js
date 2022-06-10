@@ -67,7 +67,7 @@ const Project = () => {
                             <div className="project__meta absolute">
                                 <h5 className="project__text">Book warehouse website</h5>
                                 <h4 className="project__text">Full Stack Project</h4>
-                                <a href="#" className="project__btn">View Details</a>
+                                <a href="/book" className="project__btn">View Details</a>
                             </div>
                         </div>
                     </div>
@@ -111,21 +111,21 @@ const Project = () => {
                         <div className="project__box pointer relative">
                             <div className="project__box__img pointer relative">
                                 <div className="project__img__box">
-                                    <img src={project6} alt="" className="project__img" />
+                                    <img src={project5} alt="" className="project__img" />
                                 </div>
                                 <div className="mask__effect"></div>
                             </div>
                             <div className="project__meta absolute">
                                 <h5 className="project__text">Comfortable Chair</h5>
                                 <h4 className="project__text"> React.js project</h4>
-                                <a href="#" className="project__btn">View Details</a>
+                                <a href="/chair" className="project__btn">View Details</a>
                             </div>
                         </div>
                     </div>
                     <br />
 
                     <div className="view__more__btn d__flex align__items__center justify__content__center pxy__30">
-                        <button className="view__more pointer btn">View more</button>
+                        <a href="/allProjects"><button className="view__more pointer btn"> Page link</button></a>
                     </div>
 
                 </div>

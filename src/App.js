@@ -1,28 +1,25 @@
-import { Route, Routes, useNavigate } from 'react-router-dom';
-import About from './About';
+import { Route, Routes } from 'react-router-dom';
+import AllProjects from './AllProjects';
 import './App.css';
-import Blog from './Blog';
+import Book from './Book';
+import Chair from './Chair';
 import Contact from './Contact';
 import Footer from './Footer';
 import Home from './Home';
 import Manufactur from './Manufactur';
-import MySkill from './MySkill';
-import Project from './Project';
-import Service from './Service';
+
 function App() {
   return (
     <div className='App'>
-      {/* <Home /> */}
+
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/manufactur' element={<Manufactur />}></Route>
+        <Route path='/book' element={<Book />}></Route>
+        <Route path='/chair' element={<Chair />}></Route>
+        <Route path='/allProjects' element={<AllProjects />}></Route>
       </Routes>
-      {/* <About />
-      <Service />
-      <Project />
-      <Blog />
-      <MySkill />
-      <Contact /> */}
+
       <Footer />
     </div>
   );
