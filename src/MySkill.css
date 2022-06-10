@@ -17,3 +17,15 @@
     font-weight: bold;
     color: rebeccapurple;
 }
+
+.mern-developer {
+    height: 450px;
+
+}
+
+@media only screen and (max-width:425px) {
+    .mern-developer {
+        width: 200px;
+        height: 200px;
+    }
+}

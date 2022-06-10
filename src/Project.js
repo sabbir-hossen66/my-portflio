@@ -6,8 +6,10 @@ import Project3 from './image/project3.PNG'
 import Project4 from './image/project4.PNG'
 import project5 from './image/project-5.PNG'
 import project6 from './image/project-6.PNG'
+import { Link, useNavigate } from 'react-router-dom';
 
 const Project = () => {
+    const navigate = useNavigate();
     return (
         <div className='project component__space' id='Portfolio'>
             <div className="heading">
@@ -47,7 +49,8 @@ const Project = () => {
                             <div className="project__meta absolute">
                                 <h5 className="project__tex">Manufacturer website</h5>
                                 <h4 className="project__text">Full Stack Project</h4>
-                                <a href="#" className="project__btn">View Details</a>
+                                {/* <button onClick={() => navigate("/manufactur")} className="project__btn">View Details</button> */}
+                                <a href="/manufactur" className="project__btn">View Details</a>
                             </div>
                         </div>
                     </div>
