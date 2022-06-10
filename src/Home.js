@@ -7,7 +7,7 @@ import photo from './image/photostudio-6-designify-removebg-preview.png'
 import MySkill from './MySkill';
 import Project from './Project';
 import Service from './Service';
-// import photo from './image/trydo.png'
+import photo1 from './image/icon.svg'
 window.addEventListener('scroll', function () {
     const header = this.document.querySelector('.header');
     header.classList.toggle('active', window.scrollY > 0)
@@ -23,7 +23,7 @@ const Home = () => {
             <div className="home__bg">
                 <div className="header d__flex align__items__center pxy__30">
                     <div className='logo'>
-                        {/* <img  src={photo} alt="" /> */}
+                        <img height={40} src={photo1} alt="" />
                     </div>
                     <div className="navigation pxy__30">
                         <ul className="navbar d__flex">
